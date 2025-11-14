@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contáctenos - Mi Empresa</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo"><a href="index.html">Mi Empresa</a></h1>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">Sobre Nosotros</a>
+        <a href="services.html">Nuestros Servicios</a>
+        <a href="contact.html">Contáctenos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Contáctenos</h2>
+    <form action="https://formspree.io/f/tu-id" method="POST">
+      <label>Nombre
+        <input type="text" name="name" required>
+      </label>
+      <label>Email
+        <input type="email" name="_replyto" required>
+      </label>
+      <label>Mensaje
+        <textarea name="message" rows="5" required></textarea>
+      </label>
+      <button type="submit">Enviar</button>
+    </form>
+    <p>O escríbenos a: contacto@miempresa.com</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year4"></span> Mi Empresa.</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year4').textContent = new Date().getFullYear();</script>
+</body>
+</html>

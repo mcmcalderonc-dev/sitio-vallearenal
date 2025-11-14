@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Inicio - Mi Sitio Informativo</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo"><a href="index.html">Mi Empresa</a></h1>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">Sobre Nosotros</a>
+        <a href="services.html">Nuestros Servicios</a>
+        <a href="contact.html">Contáctenos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Slider -->
+    <section class="slider" id="slider">
+      <div class="slides">
+        <div class="slide active"><img src="images/slider1.jpg" alt="Imagen 1"><div class="caption">Titulo 1</div></div>
+        <div class="slide"><img src="images/slider2.jpg" alt="Imagen 2"><div class="caption">Titulo 2</div></div>
+        <div class="slide"><img src="images/slider3.jpg" alt="Imagen 3"><div class="caption">Titulo 3</div></div>
+      </div>
+      <button class="prev" aria-label="Anterior">&#10094;</button>
+      <button class="next" aria-label="Siguiente">&#10095;</button>
+      <div class="dots"></div>
+    </section>
+
+    <section class="intro container">
+      <h2>Bienvenidos</h2>
+      <p>Breve descripción de tu empresa o misión.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Mi Empresa. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
